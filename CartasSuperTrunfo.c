@@ -22,49 +22,49 @@ int main() {
     printf("Digita os dados da primeira carta! \n");
 
     printf("Digite o estado: \n");
-    scanf("%c", Estado);
+    scanf("%c", & Estado);
 
     printf("Digite o codigo da carta: \n");
-    scanf("%s", Codigo);
+    scanf("%s", & Codigo);
 
     printf("Digite a cidade: \n");
-    scanf("%s", Cidade);
+    scanf("%s", & Cidade);
 
     printf("Digite a Populacao: \n");
-    scanf("%d", &Populacao);
+    scanf("%d", & Populacao);
 
     printf("Digite a area em Km: \n");
-    scanf("%f", &Km);
+    scanf("%f", & Km);
 
     printf("Digite o PIB: \n");
-    scanf("%f", &PIB);
+    scanf("%f", & PIB);
 
     printf("Digite pontos turisticos: \n");
-    scanf("%d", &Pontos);
+    scanf("%d", & Pontos);
 
 
     printf("Digite os dados da segunda carta! \n");
 
     printf("Digite o estado: \n");
-    scanf(" %c", &Estado2);
+    scanf(" %c", & Estado2);
 
     printf("Digite o codigo da carta: \n");
-    scanf(" %s", Codigo2);
+    scanf(" %s", & Codigo2);
 
     printf("Digite a cidade: \n");
-    scanf(" %s", Cidade2);
+    scanf(" %s", & Cidade2);
 
     printf("Digite a populacao: \n");
-    scanf("%d", &Populacao2);
+    scanf("%d", & Populacao2);
 
     printf("Digite a area en Km: \n");
-    scanf("%f", &Km2);
+    scanf("%f", & Km2);
 
     printf("Digite o PIB: \n");
-    scanf("%f", &PIB2);
+    scanf("%f", & PIB2);
 
-    printf("Digite pontos turisticos:");
-    scanf("%d", &Pontos2);
+    printf("Digite pontos turisticos: \n");
+    scanf("%d", & Pontos2);
 
     printf("----------CARTA 1----------\n");
     printf("Estado: %c\n", Estado);
